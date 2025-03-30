@@ -1,0 +1,31 @@
+{
+  "name": "@horin-tools/subparser",
+  "description": "The subscribe parser",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Horace Liu",
+    "url": "https://github.com/liuhq",
+    "email": "im.liuhq@gmail.com"
+  },
+  "homepage": "https://github.com/liuhq/subparser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuhq/subparser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liuhq/subparser/issues"
+  },
+  "type": "module",
+  "bin": {
+    "subparser": "main.js"
+  },
+  "main": "main.js",
+  "files": [
+    "main.js",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --env-file=.env main.js"
+  }
+}
